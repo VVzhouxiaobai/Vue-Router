@@ -1,0 +1,30 @@
+.breadcrumb{
+
+}
+.tab{
+  height:calc(100% - 60px);
+  width:200px;
+}
+.right_content{
+  width: calc(100% - 200px);
+  position:absolute;
+  left:200px;
+  height:calc(100% - 60px);
+  top:60px;
+  padding: 10px;
+  overflow-y: auto;
+}
+ul.el-menu{
+  height:100%;
+  background: #324157;
+  border-radius: 0px;
+}
+.el-submenu ul.el-menu {
+  background: #324157;
+}
+ul.el-menu li,div.el-submenu__title{
+  color: #bfcbd9;
+}
+.el-submenu__title:hover, .el-menu-item:hover{
+  color: #324157;
+}
