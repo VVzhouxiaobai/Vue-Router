@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Home from '../components/home'
+import Home from '@/components/home'
 // import Layout from '@/views/layout'
 // import Project from '@/views/backend/project'
 // import Doc from '@/views/backend/doc'
