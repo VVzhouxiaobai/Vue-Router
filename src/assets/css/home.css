@@ -1,20 +1,8 @@
-@import './fonts2/stylesheet.css';
-
 html,body{
   width: 100%;
   height:100%;
 }
 
-
-@font-face {
-  font-family: 'tahuregular';
-  src: url('./fonts2/tahu-webfont.woff2') format('woff2'),
-  url('./fonts2/tahu-webfont.woff') format('woff'),
-  url('./fonts2/tahu-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-
-}
 
 .clearFix:after {
   display: block;
