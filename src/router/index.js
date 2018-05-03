@@ -104,11 +104,16 @@ let router = new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '*',
+      redirect: '/',
+      name: 'Home',
+      component: Home,
+      meta: {
+        breadcrumbName: '首页'
+      }
     }
-    // {
-    //   path: '*',
-    //   redirect: '/'
-    // }
   ]
 })
 
