@@ -8,7 +8,7 @@
         <div class="login-btn"><input type="submit" value="一键登录"/></div>
       </form>
       <div class="back-index">
-        <router-link to="/">首页>>></router-link>
+        <router-link :to="{name:'Home'}">首页>>></router-link>
       </div>
     </div>
   </div>

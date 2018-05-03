@@ -13,8 +13,8 @@
       后台管理实例
     </div>
     <div class="btns">
-      <router-link to="/table" tag="div" class=" trans">我的项目</router-link>
-      <router-link to="/doc" tag="div" class=" trans">我的文档</router-link>
+      <router-link :to="{name:'Table'}" tag="div" class=" trans">我的项目</router-link>
+      <router-link :to="{name:'Doc'}" tag="div" class=" trans">我的文档</router-link>
     </div>
   </div>
 </template>
